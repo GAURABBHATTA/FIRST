@@ -1,6 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
+int main()
+{
+    int n ;
+    printf(" enter any num 0to ");
+    scanf ("%d", &n);
+    if (n ==0 ) 
+    {
+        printf(" number is zero ");
 
-int main(void) {
-    printf("Hello, world!\n");
-    return 0;
-}
+    }   
+
+
+
+    else if(  n==3 || n==5 || n==7 || n==9)  
+
+     { printf(" number is odd");
+     }
+     else  {
+         printf(" number is  even ");
+     }
+     return 0;
+     }
